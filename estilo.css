@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: flex-end;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;  
+}
+li{
+    padding: 10px;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid red;    */
+}
+.sobre-nos{
+    /* border: 1px solid red;  */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding: 10px; */
+}
+p{
+    margin-top: 10px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.agenda{
+    margin-top: 20px;
+    font-size: 25px;
+    background-image: url(./barba.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 800px;
+}
+.contato{
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.endereco{
+    background-color:white;
+    color: black;
+    border-radius: 30px;
+    margin: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height: 90px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ind{
+    display: flex;
+    justify-content: center;
+}
+#what{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.fa-whatsapp{
+    color: black;
+    font-size: 30px;
+    padding-left: 5px;
+}
+.titulo-agenda{
+    color: white;
+}
+.horario{
+    /* border: 1px solid red; */
+    margin-top: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#btn{
+    color: white;
+    background-color: green;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    margin-left: calc(50% - 120px);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+}
+#espaco{
+    width: 100%;
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+.principal{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.cards{
+    width: 220px;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px;
+}
+#preco-titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
